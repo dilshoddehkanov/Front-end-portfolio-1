@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+.wrapper {
+  width: 100%;
+  padding: 0; }
+  .wrapper .banner #background {
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    top: -220px; }
+  .wrapper .banner .logo {
+    position: relative;
+    top: 50px;
+    margin-left: 15%;
+    display: flex; }
+    .wrapper .banner .logo img {
+      width: 85px;
+      height: 80px; }
+    .wrapper .banner .logo h1 {
+      clear: none;
+      font-size: 2.25rem;
+      font-weight: 800;
+      line-height: 1.25;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-left: 2.25rem; }
+      .wrapper .banner .logo h1 a {
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #fff; }
+  .wrapper .menu {
+    margin-top: 100px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 0.75rem;
+    border-bottom: 1px solid #767676;
+    z-index: 1; }
+    .wrapper .menu ul {
+      display: flex;
+      margin-left: 7rem; }
+      .wrapper .menu ul li {
+        list-style: none; }
+        .wrapper .menu ul li a {
+          font-family: sans-serif;
+          text-decoration: none;
+          margin-left: 2rem;
+          color: #222; }
+          .wrapper .menu ul li a:hover {
+            color: #767676; }
+  .wrapper .block {
+    width: 100%;
+    height: 592px;
+    background-color: white; }
+    .wrapper .block .content {
+      width: 70%;
+      display: flex;
+      margin: 0 auto;
+      padding-top: 5rem; }
+      .wrapper .block .content .left {
+        width: 325px; }
+        .wrapper .block .content .left h2 {
+          font-family: sans-serif;
+          color: #222222;
+          font-size: 0.875rem;
+          font-weight: 800;
+          letter-spacing: 0.14em;
+          text-transform: uppercase; }
+      .wrapper .block .content .right b {
+        color: #0000ff;
+        font-weight: 700;
+        font-size: 1.375rem;
+        line-height: 1.4rem;
+        font-family: sans-serif;
+        margin-right: 1rem;
+        text-transform: uppercase; }
+      .wrapper .block .content .right .contact {
+        color: #767676;
+        margin-bottom: 4rem;
+        font-size: 1.375rem;
+        line-height: 1.4rem;
+        font-family: sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

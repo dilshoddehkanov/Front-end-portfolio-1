@@ -1,0 +1,349 @@
+@font-face {
+  font-family: "BalooThambi-Regular";
+  src: url("../Fonts/BalooThambi-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Gilroy regular";
+  src: url("../Fonts/gilroy-regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../Fonts/Roboto-Regular.ttf") format("trutype"); }
+a {
+  text-decoration: none; }
+
+.wrapper {
+  width: 1920px;
+  margin: 1rem auto; }
+  .wrapper .menu {
+    width: 100%; }
+    .wrapper .menu ul {
+      display: flex; }
+      .wrapper .menu ul li {
+        list-style: none; }
+      .wrapper .menu ul .msc {
+        font-family: "BalooThambi-Regular", sans-serif;
+        width: 102px;
+        height: 22px;
+        margin-left: 260px;
+        margin-top: 27px;
+        margin-right: 56px;
+        padding: 2px 7px 0.68px 8px;
+        background: #8D1A52; }
+        .wrapper .menu ul .msc a {
+          color: white;
+          font-weight: 400;
+          line-height: 27.65px;
+          font-size: 18px; }
+      .wrapper .menu ul .menu-items {
+        font-family: "Gilroy regular", sans-serif;
+        height: 20px;
+        margin-left: 32px;
+        margin-top: 32px; }
+        .wrapper .menu ul .menu-items a {
+          color: black;
+          font-size: 16px; }
+      .wrapper .menu ul .menu-icon1 {
+        margin-left: 131px;
+        margin-top: 33.01px; }
+      .wrapper .menu ul .menu-icon2 {
+        margin-top: 36.05px;
+        margin-left: 26.99px; }
+  .wrapper .rectangle {
+    width: 1830px;
+    margin-left: 45px;
+    position: relative; }
+    .wrapper .rectangle .Ellipse70 {
+      width: 90px;
+      height: 90px;
+      background: #AEC60B;
+      border-radius: 45px;
+      position: absolute;
+      top: 315px;
+      left: 870px; }
+      .wrapper .rectangle .Ellipse70 .polygon {
+        width: 31px;
+        height: 31px;
+        top: 29px;
+        left: 29px;
+        position: absolute;
+        transform: rotate(240deg); }
+  .wrapper .news {
+    display: flex; }
+    .wrapper .news h2 {
+      font-family: "Gilroy regular",sans-serif;
+      width: 173px;
+      font-size: 36px;
+      line-height: 42.19px;
+      margin-left: 260px;
+      margin-top: 68px; }
+    .wrapper .news hr {
+      width: 1011px;
+      margin-top: 100px;
+      border: 1px solid #BDBDBD;
+      height: 0; }
+  .wrapper .block {
+    position: relative; }
+    .wrapper .block .box-1 {
+      display: flex;
+      margin-left: 236px; }
+      .wrapper .block .box-1 .information {
+        width: 440px;
+        margin-top: 21px;
+        margin-left: 24px;
+        box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);
+        transition: background 0.5s ease-in-out; }
+        .wrapper .block .box-1 .information:hover .inf {
+          background: #F4A524; }
+          .wrapper .block .box-1 .information:hover .inf .vector {
+            background: #F4A524; }
+          .wrapper .block .box-1 .information:hover .inf .futhol, .wrapper .block .box-1 .information:hover .inf .date, .wrapper .block .box-1 .information:hover .inf .new {
+            color: white; }
+        .wrapper .block .box-1 .information .inf {
+          opacity: 95%;
+          width: 440px;
+          background: #ffffff;
+          position: absolute;
+          border-radius: 4px; }
+          .wrapper .block .box-1 .information .inf .futhol {
+            font-family: "Gilroy regular",sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 26.33px;
+            margin-left: 24px;
+            margin-top: 14px;
+            color: black; }
+          .wrapper .block .box-1 .information .inf .new {
+            font-family: "Gilroy regular",sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20.48px;
+            margin-left: 24px;
+            margin-top: 6px;
+            color: black;
+            margin-right: 24px; }
+          .wrapper .block .box-1 .information .inf .date {
+            font-family: "Gilroy regular",sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16.8px;
+            width: 64px;
+            margin: 10px 16px 9px 360px;
+            color: black; }
+          .wrapper .block .box-1 .information .inf .vector {
+            width: 30px;
+            height: 30px;
+            transform: rotate(45deg);
+            position: absolute;
+            background: #ffffff;
+            bottom: -15px;
+            left: 24px; }
+        .wrapper .block .box-1 .information img {
+          position: relative;
+          z-index: -1; }
+      .wrapper .block .box-1 .text p:first-child {
+        font-family: "Gilroy regular", sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59.42px;
+        text-align: right;
+        margin: 10px 260px 0 66px;
+        color: #AEC60B;
+        text-transform: uppercase; }
+      .wrapper .block .box-1 .text p:last-child {
+        font-family: "Gilroy regular", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44.57px;
+        text-align: right;
+        margin: 0 260px 26px 154px;
+        color: #AEC60B;
+        text-transform: uppercase; }
+    .wrapper .block #img {
+      position: absolute;
+      width: 634px;
+      left: 1131px;
+      top: 125px;
+      z-index: -1; }
+    .wrapper .block .h3 {
+      display: flex; }
+      .wrapper .block .h3 h3 {
+        font-family: "Gilroy regular",sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #828282;
+        margin-left: 260px;
+        margin-top: 33px;
+        margin-bottom: 0; }
+      .wrapper .block .h3 svg {
+        margin-left: 24px;
+        margin-top: 32px; }
+  .wrapper .services {
+    margin-left: 260px;
+    margin-top: 35px;
+    padding: 0; }
+    .wrapper .services .h2 {
+      display: flex;
+      margin-bottom: 55px; }
+      .wrapper .services .h2 h2 {
+        font-family: "Gilroy regular",sans-serif;
+        width: 330px;
+        font-size: 36px;
+        line-height: 44.57px;
+        margin: 0; }
+      .wrapper .services .h2 hr {
+        width: 1054px;
+        margin-left: 16px;
+        margin-top: 37px;
+        border: 1px solid #BDBDBD;
+        height: 0; }
+    .wrapper .services .frame {
+      width: 264px;
+      height: 215px;
+      box-shadow: 3px 4px 9px rgba(0, 0, 0, 0.2);
+      position: relative;
+      background-image: url("../images/naqsh1.png");
+      margin-right: 20px; }
+      .wrapper .services .frame .phone {
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        border-radius: 22px;
+        top: 6.51%;
+        left: 5.3%;
+        background: #8B2860;
+        box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2); }
+        .wrapper .services .frame .phone img {
+          margin: 20%; }
+      .wrapper .services .frame .phone-w {
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        border-radius: 22px;
+        top: 6.51%;
+        left: 5.3%;
+        background: #ffffff;
+        box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2); }
+        .wrapper .services .frame .phone-w img {
+          margin: 20%; }
+      .wrapper .services .frame .img {
+        margin-left: 86px;
+        margin-top: 35px;
+        margin-bottom: 28px; }
+      .wrapper .services .frame .img2 {
+        margin-left: 86px;
+        margin-top: 52px;
+        margin-bottom: 48px; }
+      .wrapper .services .frame .img3 {
+        margin-left: 86px;
+        margin-top: 49px;
+        margin-bottom: 44px; }
+      .wrapper .services .frame .img4 {
+        margin-left: 86px;
+        margin-top: 35px;
+        margin-bottom: 23px; }
+      .wrapper .services .frame p {
+        font-family: "Gilroy regular",sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22.28px;
+        text-align: center;
+        color: #8B2860;
+        text-transform: uppercase;
+        margin: 0; }
+      .wrapper .services .frame button {
+        width: 236px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 22px;
+        text-transform: uppercase;
+        padding-top: 11px;
+        padding-bottom: 7px;
+        background: #8B2860;
+        color: white;
+        border-radius: 30px;
+        margin-left: 14px; }
+      .wrapper .services .frame:hover {
+        box-shadow: 3px 13px 9px rgba(0, 0, 0, 0.2); }
+  .wrapper .contact {
+    margin-left: 260px;
+    margin-top: 227px;
+    padding: 0;
+    display: flex; }
+    .wrapper .contact .arenda {
+      width: 134px; }
+      .wrapper .contact .arenda h3 {
+        font-family: "Gilroy regular",sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22.28px;
+        color: #4F4F4F; }
+      .wrapper .contact .arenda p {
+        font-family: "Roboto-Regular",sans-serif;
+        color: #4F4F4F;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14.06px;
+        margin: 3px 0 17px 14px; }
+      .wrapper .contact .arenda img {
+        margin-bottom: 18px; }
+    .wrapper .contact .marketing {
+      margin-left: 187px;
+      width: 218px; }
+      .wrapper .contact .marketing h3 {
+        font-family: "Gilroy regular",sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22.28px;
+        color: #4F4F4F; }
+      .wrapper .contact .marketing p {
+        font-family: "Roboto-Regular",sans-serif;
+        color: #4F4F4F;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14.06px;
+        margin: 3px 0 17px 14px; }
+      .wrapper .contact .marketing img {
+        margin-bottom: 18px; }
+      .wrapper .contact .marketing #pin {
+        height: 19px; }
+    .wrapper .contact .margin {
+      margin-left: 178px;
+      width: 183px; }
+    .wrapper .contact .link {
+      margin-left: 106px; }
+      .wrapper .contact .link img {
+        margin-bottom: 24px; }
+      .wrapper .contact .link img:last-child {
+        margin-left: 180px; }
+  .wrapper .last {
+    width: 100%;
+    display: flex;
+    background: #8D1A52;
+    margin-top: 20px; }
+    .wrapper .last p:nth-child(1) {
+      font-family: "Roboto-Regular",sans-serif;
+      color: white;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16.41px;
+      margin: 18px 0 14px 341px; }
+    .wrapper .last p:nth-child(2) {
+      font-family: "Roboto-Regular",sans-serif;
+      color: white;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16.41px;
+      margin: 18px 0 14px 95px; }
+    .wrapper .last p:nth-child(3) {
+      font-family: "Roboto-Regular",sans-serif;
+      color: white;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16.41px;
+      margin: 18px 0 14px 679px; }
+
+.d-flex {
+  display: flex; }
+
+/*# sourceMappingURL=main.css.map */
